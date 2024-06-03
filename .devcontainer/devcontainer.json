@@ -1,6 +1,6 @@
 {
     "name": "latex-env",
-    "image": "gitlab.lrz.de:5005/hm-koester-lectures/ss2024-modsim/assignment_1_evasion_experiment/schaumamalwaswird/latex:latest",
+    "build": { "dockerfile": "Dockerfile" },
     "customizations": {
         "vscode": {
             "extensions":[
