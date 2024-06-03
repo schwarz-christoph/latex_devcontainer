@@ -1,0 +1,21 @@
+{
+    "name": "latex-env",
+    "image": "gitlab.lrz.de:5005/hm-koester-lectures/ss2024-modsim/assignment_1_evasion_experiment/schaumamalwaswird/latex:latest",
+    "customizations": {
+        "vscode": {
+            "extensions":[
+                "James-Yu.latex-workshop",
+                "valentjn.vscode-ltex",
+                "hediet.vscode-drawio",
+                "ms-azuretools.vscode-docker",
+                "donjayamanne.githistory",
+                "mhutchie.git-graph",
+                "huizhou.githd",
+                "waderyan.gitblame",
+                "donjayamanne.git-extension-pack"
+            ],
+        }
+    },
+    "forwardPorts": [3000],
+    "remoteUser": "vscode"
+}
